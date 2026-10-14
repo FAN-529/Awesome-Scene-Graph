@@ -19,7 +19,6 @@ The list covers selected milestones and related applications rather than every s
 - [Surveys](#surveys)
 - [Tools and implementations](#tools-and-implementations)
 - [Contributing](#contributing)
-- [Acknowledgements](#acknowledgements)
 - [License](#license)
 
 ## Start here
