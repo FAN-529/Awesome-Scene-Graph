@@ -1,4 +1,4 @@
-# Awesome Scene Graph
+# Awesome Scene Graph Papers
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/FAN-529/Awesome-Scene-Graph/pulls)
