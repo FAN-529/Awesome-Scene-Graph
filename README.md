@@ -6,7 +6,7 @@
 
 A curated collection of papers, datasets and implementations on scene graphs: image scene graph generation, panoptic and open-vocabulary representations, temporal graphs, 3D spatial reasoning, and surgical applications.
 
-**94 entries from 2015 to 2026.** Literature snapshot: **2026-10-12**. Repository updated: **2026-10-14**.
+**94 entries from 2015 to 2026.**
 
 The list covers selected milestones and related applications rather than every scene graph paper. Published papers, accepted papers, workshops and preprints are labelled separately. A `repo` link means a public repository is available; it does not certify complete code, released checkpoints, permissive licensing or reproduced results.
 
