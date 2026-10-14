@@ -331,10 +331,6 @@ Selected author repositories, checked for availability on 2026-10-14. Dependenci
 
 Suggestions, corrections and new papers are welcome through [issues](https://github.com/FAN-529/Awesome-Scene-Graph/issues) or [pull requests](https://github.com/FAN-529/Awesome-Scene-Graph/pulls). Please include an original paper or author source.
 
-## Acknowledgements
-
-The catalogue layout was inspired by [Awesome AI Agents for Healthcare](https://github.com/FAN-529/Awesome-AI-Agents-for-Healthcare) and [Awesome Radiology Report Generation](https://github.com/FAN-529/Awesome-Radiology-Report-Generation), with thanks to their upstream maintainers [AgenticHealthAI](https://github.com/AgenticHealthAI/Awesome-AI-Agents-for-Healthcare) and [mk-runner](https://github.com/mk-runner/Awesome-Radiology-Report-Generation). All linked research belongs to its respective authors.
-
 ## License
 
 Original catalogue text is provided under the [MIT License](LICENSE). Linked papers, implementations, datasets and model weights retain their own copyrights and licenses.
