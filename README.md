@@ -6,12 +6,13 @@
 
 A curated collection of papers, datasets and implementations on scene graphs: image scene graph generation, panoptic and open-vocabulary representations, temporal graphs, 3D spatial reasoning, and surgical applications.
 
-**94 entries from 2015 to 2026.**
+**119 entries from 2015 to 2026.**
 
 The list covers selected milestones and related applications rather than every scene graph paper. Published papers, accepted papers, workshops and preprints are labelled separately. A `repo` link means a public repository is available; it does not certify complete code, released checkpoints, permissive licensing or reproduced results.
 
 ## Contents
 
+- [Scene Graphs in Surgery: topic guide](topics/scene-graphs-in-surgery.md)
 - [Start here](#start-here)
 - [Papers by year](#papers-by-year)
 - [Papers by topic](#papers-by-topic)
@@ -20,6 +21,12 @@ The list covers selected milestones and related applications rather than every s
 - [Tools and implementations](#tools-and-implementations)
 - [Contributing](#contributing)
 - [License](#license)
+
+## Scene Graphs in Surgery
+
+The [dedicated surgical topic guide](topics/scene-graphs-in-surgery.md) covers **52 selected entries**: 47 journal/main-conference publications (including the review), four workshop papers and one accepted conference paper. It organizes graph construction, temporal context, transfer, downstream tasks, generation and external-view OR modeling, with short paper summaries, dataset notes and release checks. The selection prioritizes TMI, Medical Image Analysis, CVPR, NeurIPS, MICCAI, ICRA and relevant robotics/video journals; specialized IJCARS/IPCAI work is identified by venue.
+
+Updated on **2026-11-03** from the supplied scoping review, primary publication records and author repositories. Public source, released data/checkpoints and reproduced results are separate claims.
 
 ## Start here
 
@@ -48,32 +55,39 @@ A scene graph may contain symbolic labels, visual features, geometry or several 
 - <a id="paper-g13"></a>[NeurIPS 2026; accepted] **GraphWrit3R: End-to-End 3D Scene Graph Writing** [[paper]](https://arxiv.org/abs/2609.31595) [[repo]](https://github.com/insait-institute/GraphWrit3R)
 - <a id="paper-or-action"></a>[MICCAI 2026] **OR-Action: Multi-Role Video Understanding with Fine-Grained Actions** [[paper]](https://papers.miccai.org/miccai-2026/0741-Paper4727.html)
 - <a id="paper-probabilistic2026"></a>[arXiv 2026; preprint] **Probabilistic Scene Graphs: Hierarchical Representation and Real-time System** [[paper]](https://arxiv.org/abs/2609.23144)
-- <a id="paper-protoflow"></a>[IPCAI / IJCARS 2026] **ProtoFlow: Interpretable and Robust Surgical Workflow Modeling with Learned Dynamic Scene Graph Prototypes** [[paper]](https://arxiv.org/abs/2512.14092)
+- <a id="paper-protoflow"></a>[IPCAI / IJCARS 2026] **ProtoFlow: Interpretable and Robust Surgical Workflow Modeling with Learned Dynamic Scene Graph Prototypes** [[paper]](https://doi.org/10.1007/s11548-026-03697-x)
 - <a id="paper-relationr1-2026"></a>[AAAI 2026] **Relation-R1: Progressively Cognitive Chain-of-Thought Guided Reinforcement Learning for Unified Relation Comprehension** [[paper]](https://ojs.aaai.org/index.php/AAAI/article/view/37557) [[repo]](https://github.com/HKUST-LongGroup/Relation-R1)
 - <a id="paper-sage-or"></a>[BMVC 2026; accepted] **SAGE-OR: Semi-supervised Adaptive Scene Graph Generation for Operating Rooms** [[paper]](https://arxiv.org/abs/2608.15336) [[repo]](https://github.com/TheFourthKaramazov/SAGE-OR)
 - <a id="paper-sage2026"></a>[ICML 2026] **Scene Graph Thinking: Reinforcing Structured Visual Reasoning for Multimodal Large Language Models** [[paper]](https://proceedings.mlr.press/v306/yang26ck.html) [[repo]](https://github.com/zwyang6/SaGe)
 - <a id="paper-sggr3-2026"></a>[Findings of ACL 2026] **SGG-R3: From Next-Token Prediction to End-to-End Unbiased Scene Graph Generation** [[paper]](https://aclanthology.org/2026.findings-acl.992/)
-- <a id="paper-sg-nca"></a>[SafeSurg @ MICCAI Workshops 2026] **Sterilizable Scene Graph Generation for Operating Rooms** [[paper]](https://arxiv.org/abs/2608.16469) [[repo]](https://github.com/MECLabTUDA/SG-NCA)
-- <a id="paper-topoor"></a>[MICCAI 2026] **TopoOR: A Unified Topological Scene Representation for the Operating Room** [[paper]](https://papers.miccai.org/miccai-2026/1068-Paper2412.html)
+- <a id="paper-orqa"></a>[npj Digital Medicine 2026] **Specialized Foundation Models for Intelligent Operating Rooms** [[paper]](https://doi.org/10.1038/s41746-026-02631-4) [[repo]](https://github.com/egeozsoy/ORQA)
+- <a id="paper-sg-nca"></a>[SafeSurg @ MICCAI Workshops 2026] **Sterilizable Scene Graph Generation for Operating Rooms** [[paper]](https://papers.miccai.org/miccai-2026-sat/SafeSurg_001.html) [[repo]](https://github.com/MECLabTUDA/SG-NCA)
+- <a id="paper-swomo"></a>[MICCAI 2026] **SWoMo: Neuro-Symbolic World Model for Cataract Surgery Simulation** [[paper]](https://papers.miccai.org/miccai-2026/1023-Paper2681.html) [[repo]](https://github.com/MECLabTUDA/SWoMo)
+- <a id="paper-topoor"></a>[MICCAI 2026] **TopoOR: A Unified Topological Scene Representation for the Operating Room** [[paper]](https://papers.miccai.org/miccai-2026/1068-Paper2412.html) [[repo]](https://github.com/wngTn/TopoOR)
 - <a id="paper-uno"></a>[WACV 2026] **UNO: Unifying One-stage Video Scene Graph Generation via Object-Centric Visual Representation Learning** [[paper]](https://openaccess.thecvf.com/content/WACV2026/html/Le_UNO_Unifying_One-stage_Video_Scene_Graph_Generation_via_Object-Centric_Visual_WACV_2026_paper.html)
 
 ### 2025
 
-- <a id="paper-cat-sg"></a>[MICCAI 2025] **CAT-SG: A Large Dynamic Scene Graph Dataset for Fine-Grained Understanding of Cataract Surgery** [[paper]](https://arxiv.org/abs/2506.21813) [[repo]](https://github.com/felixholm/CAT-SG)
+- <a id="paper-cat-sg"></a>[MICCAI 2025] **CAT-SG: A Large Dynamic Scene Graph Dataset for Fine-Grained Understanding of Cataract Surgery** [[paper]](https://papers.miccai.org/miccai-2025/0133-Paper1687.html) [[repo]](https://github.com/felixholm/CAT-SG)
 - <a id="paper-conformal2025"></a>[CVPR 2025] **Conformal Prediction and MLLM aided Uncertainty Quantification in Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Nag_Conformal_Prediction_and_MLLM_aided_Uncertainty_Quantification_in_Scene_Graph_CVPR_2025_paper.html)
 - <a id="paper-copasg2025"></a>[ICCV Workshops (SG2RL) 2025] **CoPa-SG: Dense Scene Graphs with Parametric and Proto-Relations** [[paper]](https://openaccess.thecvf.com/content/ICCV2025W/SG2RL/html/Lorenz_CoPa-SG_Dense_Scene_Graphs_with_Parametric_and_Proto-Relations_ICCVW_2025_paper.html) [[project]](https://lorjul.github.io/copasg/)
 - <a id="paper-diffvsgg"></a>[CVPR 2025] **DiffVsgg: Diffusion-Driven Online Video Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Chen_DiffVsgg_Diffusion-Driven_Online_Video_Scene_Graph_Generation_CVPR_2025_paper.html) [[repo]](https://github.com/kagawa588/DiffVsgg)
-- <a id="paper-egoexor"></a>[NeurIPS Datasets and Benchmarks 2025] **EgoExOR: An Ego-Exo-Centric Operating Room Dataset for Surgical Activity Understanding** [[paper]](https://arxiv.org/abs/2505.24287) [[repo]](https://github.com/ardamamur/EgoExOR)
+- <a id="paper-egoexor"></a>[NeurIPS Datasets and Benchmarks 2025] **EgoExOR: An Ego-Exo-Centric Operating Room Dataset for Surgical Activity Understanding** [[paper]](https://proceedings.neurips.cc/paper_files/paper/2025/file/5e3ffa2c53dce23986ca0f8d1d2bbc7e-Paper-Datasets_and_Benchmarks_Track.pdf) [[repo]](https://github.com/ardamamur/EgoExOR)
 - <a id="paper-esca2025"></a>[NeurIPS 2025] **ESCA: Contextualizing Embodied Agents via Scene-Graph Generation** [[paper]](https://proceedings.nips.cc/paper_files/paper/2025/hash/0418973e545b932939302cb605d06f43-Abstract-Conference.html) [[repo]](https://github.com/video-fm/ESCA)
 - <a id="paper-g12"></a>[IROS 2025] **FunGraph: Functionality Aware 3D Scene Graphs for Language-Prompted Scene Interaction** [[paper]](https://doi.org/10.1109/IROS60139.2025.11247555) [[repo]](https://github.com/dennisrotondi/FunGraph)
+- <a id="paper-hierasurg"></a>[MICCAI 2025] **HieraSurg: Hierarchy-Aware Diffusion Model for Surgical Video Generation** [[paper]](https://papers.miccai.org/miccai-2025/0412-Paper0550.html) [[repo]](https://github.com/DiegoBiagini/HieraSurg)
+- <a id="paper-itg-trip"></a>[IEEE TMI 2025] **Instrument-Tissue-Guided Surgical Action Triplet Detection via Textual-Temporal Trail Exploration** [[paper]](https://doi.org/10.1109/TMI.2025.3590457) [[repo]](https://github.com/PJLallen/ITG-Trip)
+- <a id="paper-landmark-graph"></a>[IEEE TMI 2025] **Knowledge-Driven Framework for Anatomical Landmark Annotation in Laparoscopic Surgery** [[paper]](https://doi.org/10.1109/TMI.2025.3529294)
 - <a id="paper-llavaspace2025"></a>[WACV 2025] **LLaVA-SpaceSGG: Visual Instruct Tuning for Open-Vocabulary Scene Graph Generation with Enhanced Spatial Relations** [[paper]](https://openaccess.thecvf.com/content/WACV2025/html/Xu_LLaVA-SpaceSGG_Visual_Instruct_Tuning_for_Open-Vocabulary_Scene_Graph_Generation_with_WACV_2025_paper.html) [[repo]](https://github.com/Endlinc/LLaVA-SpaceSGG)
 - <a id="paper-llmbenchmark2025"></a>[ACL 2025] **LLM Meets Scene Graph: Can Large Language Models Understand and Generate Scene Graphs? A Benchmark and Empirical Study** [[paper]](https://aclanthology.org/2025.acl-long.1036/)
 - <a id="paper-mm-or"></a>[CVPR 2025] **MM-OR: A Large Multimodal Operating Room Dataset for Semantic Understanding of High-Intensity Surgical Environments** [[paper]](https://arxiv.org/abs/2503.02579) [[repo]](https://github.com/egeozsoy/MM-OR)
+- <a id="paper-grad-workflow"></a>[Information Fusion 2025] **Multimodal Graph Representation Learning for Robust Surgical Workflow Recognition with Adversarial Feature Disentanglement** [[paper]](https://doi.org/10.1016/j.inffus.2025.103290)
 - <a id="paper-g11"></a>[CVPR 2025] **Open-Vocabulary Functional 3D Scene Graphs for Real-World Indoor Spaces** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Open-Vocabulary_Functional_3D_Scene_Graphs_for_Real-World_Indoor_Spaces_CVPR_2025_paper.html) [[repo]](https://github.com/ZhangCYG/OpenFunGraph)
 - <a id="paper-g10"></a>[CVPR 2025] **RelationField: Relate Anything in Radiance Fields** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Koch_RelationField_Relate_Anything_in_Radiance_Fields_CVPR_2025_paper.html) [[repo]](https://github.com/boschresearch/RelationField)
-- <a id="paper-sg2vid"></a>[MICCAI 2025] **SG2VID: Scene Graphs Enable Fine-Grained Control for Video Synthesis** [[paper]](https://arxiv.org/abs/2506.03082) [[repo]](https://github.com/MECLabTUDA/SG2VID)
-- <a id="paper-surgrid"></a>[IPCAI / IJCARS 2025] **SurGrID: Controllable Surgical Simulation via Scene Graph to Image Diffusion** [[paper]](https://arxiv.org/abs/2502.07945)
-- <a id="paper-holistic-surgical"></a>[MICCAI 2025] **Towards Holistic Surgical Scene Graph** [[paper]](https://arxiv.org/abs/2507.15541) [[repo]](https://github.com/ailab-kyunghee/SSG-Com)
+- <a id="paper-sg2vid"></a>[MICCAI 2025] **SG2VID: Scene Graphs Enable Fine-Grained Control for Video Synthesis** [[paper]](https://papers.miccai.org/miccai-2025/0828-Paper0234.html) [[repo]](https://github.com/MECLabTUDA/SG2VID)
+- <a id="paper-surgrid"></a>[IPCAI / IJCARS 2025] **SurGrID: Controllable Surgical Simulation via Scene Graph to Image Diffusion** [[paper]](https://doi.org/10.1007/s11548-025-03397-y) [[repo]](https://github.com/MECLabTUDA/SurGrID)
+- <a id="paper-s2former-or"></a>[IEEE TMI 2025; early access 2024] **S²Former-OR: Single-Stage Bi-Modal Transformer for Scene Graph Generation in OR** [[paper]](https://doi.org/10.1109/TMI.2024.3444279) [[repo]](https://github.com/PJLallen/S2Former-OR)
+- <a id="paper-holistic-surgical"></a>[MICCAI 2025] **Towards Holistic Surgical Scene Graph** [[paper]](https://papers.miccai.org/miccai-2025/paper/2642_paper.pdf) [[repo]](https://github.com/ailab-kyunghee/SSG-Com)
 - <a id="paper-vsdd"></a>[CVPR 2025] **Unbiased Video Scene Graph Generation via Visual and Semantic Dual Debiasing** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Unbiased_Video_Scene_Graph_Generation_via_Visual_and_Semantic_Dual_CVPR_2025_paper.html)
 - <a id="paper-usg2025"></a>[CVPR 2025] **Universal Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Universal_Scene_Graph_Generation_CVPR_2025_paper.html) [[repo]](https://github.com/ChocoWu/USG)
 - <a id="paper-vlirm2025"></a>[ICCV 2025] **Vision-Language Interactive Relation Mining for Open-Vocabulary Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/ICCV2025/html/Min_Vision-Language_Interactive_Relation_Mining_for_Open-Vocabulary_Scene_Graph_Generation_ICCV_2025_paper.html)
@@ -82,45 +96,62 @@ A scene graph may contain symbolic labels, visual features, geometry or several 
 
 - <a id="paper-fairpsg2024"></a>[ECCV 2024] **A Fair Ranking and New Model for Panoptic Scene Graph Generation** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/7817_ECCV_2024_paper.php) [[repo]](https://github.com/lorjul/panoptic-scene-graph-generation)
 - <a id="paper-easg"></a>[CVPR 2024] **Action Scene Graphs for Long-Form Understanding of Egocentric Videos** [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Rodin_Action_Scene_Graphs_for_Long-Form_Understanding_of_Egocentric_Videos_CVPR_2024_paper.html) [[repo]](https://github.com/fpv-iplab/EASG)
-- <a id="paper-ssg-vqa"></a>[IPCAI / IJCARS 2024] **Advancing Surgical VQA with Scene Graph Knowledge** [[paper]](https://arxiv.org/abs/2312.10251) [[repo]](https://github.com/CAMMA-public/SSG-VQA)
+- <a id="paper-ssg-vqa"></a>[IPCAI / IJCARS 2024] **Advancing Surgical VQA with Scene Graph Knowledge** [[paper]](https://doi.org/10.1007/s11548-024-03141-y) [[repo]](https://github.com/CAMMA-public/SSG-VQA)
 - <a id="paper-g08"></a>[IEEE Robotics and Automation Letters 2024] **Clio: Real-time Task-Driven Open-Set 3D Scene Graphs** [[paper]](https://doi.org/10.1109/LRA.2024.3451395) [[repo]](https://github.com/MIT-SPARK/Clio)
+- <a id="paper-concept-graph"></a>[IEEE TMI 2024] **Concept Graph Neural Networks for Surgical Video Understanding** [[paper]](https://doi.org/10.1109/TMI.2023.3299518)
 - <a id="paper-g06"></a>[ICRA 2024] **ConceptGraphs: Open-Vocabulary 3D Scene Graphs for Perception and Planning** [[paper]](https://concept-graphs.github.io/) [[repo]](https://github.com/concept-graphs/concept-graphs)
 - <a id="paper-ovsgtr2024"></a>[ECCV 2024] **Expanding Scene Graph Boundaries: Fully Open-Vocabulary Scene Graph Generation via Visual-Concept Alignment and Retention** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8290_ECCV_2024_paper.php) [[repo]](https://github.com/gpt4vision/OvSGTR)
 - <a id="paper-pixels2024"></a>[CVPR 2024] **From Pixels to Graphs: Open-Vocabulary Scene Graph Generation with Vision-Language Models** [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Li_From_Pixels_to_Graphs_Open-Vocabulary_Scene_Graph_Generation_with_Vision-Language_CVPR_2024_paper.html) [[repo]](https://github.com/SHTUPLUS/Pix2Grp_CVPR2024)
 - <a id="paper-holistic-or"></a>[IJCARS 2024] **Holistic OR domain modeling: a semantic scene graph approach** [[paper]](https://doi.org/10.1007/s11548-023-03022-w) [[repo]](https://github.com/egeozsoy/4D-OR) Journal extension.
+- <a id="paper-itidnet"></a>[IEEE TMI 2024] **Instrument-Tissue Interaction Detection Framework for Surgical Video Understanding** [[paper]](https://doi.org/10.1109/TMI.2024.3381209)
 - <a id="paper-g07"></a>[Robotics Science and Systems 2024] **Khronos: A Unified Approach for Spatio-Temporal Metric-Semantic SLAM in Dynamic Environments** [[paper]](https://www.roboticsproceedings.org/rss20/p081.html) [[repo]](https://github.com/MIT-SPARK/Khronos)
-- <a id="paper-lg-cvs"></a>[IEEE TMI 2024] **Latent Graph Representations for Critical View of Safety Assessment** [[paper]](https://arxiv.org/abs/2212.04155) [[repo]](https://github.com/CAMMA-public/SurgLatentGraph)
+- <a id="paper-lg-cvs"></a>[IEEE TMI 2024] **Latent Graph Representations for Critical View of Safety Assessment** [[paper]](https://doi.org/10.1109/TMI.2023.3333034) [[repo]](https://github.com/CAMMA-public/SurgLatentGraph)
 - <a id="paper-llm4sgg2024"></a>[CVPR 2024] **LLM4SGG: Large Language Models for Weakly Supervised Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Kim_LLM4SGG_Large_Language_Models_for_Weakly_Supervised_Scene_Graph_Generation_CVPR_2024_paper.html) [[repo]](https://github.com/rlqja1107/torch-LLM4SGG)
+- <a id="paper-mt4mtl-kd"></a>[IEEE TMI 2024] **MT4MTL-KD: A Multi-Teacher Knowledge Distillation Framework for Triplet Recognition** [[paper]](https://doi.org/10.1109/TMI.2023.3345736)
 - <a id="paper-oed"></a>[CVPR 2024] **OED: Towards One-stage End-to-End Dynamic Scene Graph Generation** [[paper]](https://arxiv.org/abs/2405.16925) [[repo]](https://github.com/guanw-pku/OED)
 - <a id="paper-g09"></a>[CVPR 2024] **Open3DSG: Open-Vocabulary 3D Scene Graphs from Point Clouds with Queryable Objects and Open-Set Relationships** [[paper]](https://openaccess.thecvf.com/content/CVPR2024/html/Koch_Open3DSG_Open-Vocabulary_3D_Scene_Graphs_from_Point_Clouds_with_Queryable_CVPR_2024_paper.html) [[repo]](https://github.com/boschresearch/Open3DSG)
 - <a id="paper-openpsg2024"></a>[ECCV 2024] **OpenPSG: Open-set Panoptic Scene Graph Generation via Large Multimodal Models** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/1552_ECCV_2024_paper.php) [[repo]](https://github.com/franciszzj/OpenPSG)
-- <a id="paper-surg-dg"></a>[IPCAI / IJCARS 2024] **Optimizing Latent Graph Representations of Surgical Scenes for Zero-Shot Domain Transfer** [[paper]](https://arxiv.org/abs/2403.06953) [[repo]](https://github.com/CAMMA-public/SurgLatentGraph)
-- <a id="paper-oracle"></a>[MICCAI 2024] **ORacle: Large Vision-Language Models for Knowledge-Guided Holistic OR Domain Modeling** [[paper]](https://arxiv.org/abs/2404.07031)
+- <a id="paper-surg-dg"></a>[IPCAI / IJCARS 2024] **Optimizing Latent Graph Representations of Surgical Scenes for Unseen Domain Generalization** [[paper]](https://doi.org/10.1007/s11548-024-03121-2) [[repo]](https://github.com/CAMMA-public/SurgLatentGraph)
+- <a id="paper-oracle"></a>[MICCAI 2024] **ORacle: Large Vision-Language Models for Knowledge-Guided Holistic OR Domain Modeling** [[paper]](https://arxiv.org/abs/2404.07031) [[repo]](https://github.com/egeozsoy/ORacle)
 - <a id="paper-sangria"></a>[GRAIL @ MICCAI 2024] **SANGRIA: Surgical Video Scene Graph Optimization for Surgical Workflow Prediction** [[paper]](https://arxiv.org/abs/2407.20214)
 - <a id="paper-sgt-plus-plus"></a>[IEEE TMI 2024] **SGT++: Improved Scene Graph-Guided Transformer for Surgical Report Generation** [[paper]](https://doi.org/10.1109/TMI.2023.3335909) **Abstract reviewed only.**
-- <a id="paper-s2former-or"></a>[IEEE TMI 2024] **S²Former-OR: Single-Stage Bi-Modal Transformer for Scene Graph Generation in OR** [[paper]](https://arxiv.org/abs/2402.14461)
 - <a id="paper-asmv2-2024"></a>[ECCV 2024] **The All-Seeing Project V2: Towards General Relation Comprehension of the Open World** [[paper]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04939.pdf) [[repo]](https://github.com/OpenGVLab/all-seeing)
-- <a id="paper-tritemp-or"></a>[MICCAI 2024] **Tri-modal Confluence with Temporal Dynamics for Scene Graph Generation in Operating Rooms** [[paper]](https://arxiv.org/abs/2404.09231)
+- <a id="paper-instrument-anticipation"></a>[IJCARS 2024] **Towards Multimodal Graph Neural Networks for Surgical Instrument Anticipation** [[paper]](https://doi.org/10.1007/s11548-024-03226-8)
+- <a id="paper-tritemp-or"></a>[MICCAI 2024] **Tri-modal Confluence with Temporal Dynamics for Scene Graph Generation in Operating Rooms** [[paper]](https://papers.miccai.org/miccai-2024/802-Paper0281.html) [[repo]](https://github.com/RascalGdd/TriTemp-OR)
+- <a id="paper-vis-net"></a>[IEEE TMI 2024] **Video-Instrument Synergistic Network for Referring Video Instrument Segmentation in Robotic Surgery** [[paper]](https://doi.org/10.1109/TMI.2024.3426953) [[repo]](https://github.com/whq-xxh/RSVIS)
+- <a id="paper-visage"></a>[MICCAI Workshops 2024; proceedings 2025] **VISAGE: Video Synthesis Using Action Graphs for Surgery** [[paper]](https://doi.org/10.1007/978-3-031-77610-6_14)
 
 ### 2023
 
+- <a id="paper-cholectriplet2021"></a>[Medical Image Analysis 2023] **CholecTriplet2021: A Benchmark Challenge for Surgical Action Triplet Recognition** [[paper]](https://doi.org/10.1016/j.media.2023.102803) [[repo]](https://github.com/CAMMA-public/cholect50)
+- <a id="paper-cholectriplet2022"></a>[Medical Image Analysis 2023] **CholecTriplet2022: Show Me a Tool and Tell Me the Triplet - An Endoscopic Vision Challenge for Surgical Action Triplet Detection** [[paper]](https://doi.org/10.1016/j.media.2023.102888) [[repo]](https://github.com/CAMMA-public/cholect50)
+- <a id="paper-dynamic-report"></a>[ICRA 2023] **Dynamic Interactive Relation Capturing via Scene Graph Learning for Robotic Surgical Report Generation** [[paper]](https://doi.org/10.1109/ICRA48891.2023.10160647)
 - <a id="paper-dynamic-surgical"></a>[ICCV Workshops (SG2RL) 2023] **Dynamic Scene Graph Representation for Surgical Video** [[paper]](https://openaccess.thecvf.com/content/ICCV2023W/SG2RL/html/Holm_Dynamic_Scene_Graph_Representation_for_Surgical_Video_ICCVW_2023_paper.html)
 - <a id="paper-surg-stlg"></a>[MICCAI 2023] **Encoding Surgical Videos as Latent Spatiotemporal Graphs for Object and Anatomy-Driven Reasoning** [[paper]](https://arxiv.org/abs/2312.06829) [[repo]](https://github.com/CAMMA-public/SurgLatentGraph)
 - <a id="paper-dsg-detr"></a>[WACV 2023] **Exploiting Long-Term Dependencies for Generating Dynamic Scene Graphs** [[paper]](https://arxiv.org/abs/2112.09828) [[repo]](https://github.com/Shengyu-Feng/DSG-DETR)
 - <a id="paper-labrad-or"></a>[MICCAI 2023] **LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms** [[paper]](https://arxiv.org/abs/2303.13293) [[repo]](https://github.com/egeozsoy/LABRAD-OR)
 - <a id="paper-vs3-2023"></a>[CVPR 2023] **Learning To Generate Language-Supervised and Open-Vocabulary Scene Graph Using Pre-Trained Visual-Semantic Space** [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Zhang_Learning_To_Generate_Language-Supervised_and_Open-Vocabulary_Scene_Graph_Using_Pre-Trained_CVPR_2023_paper.html) [[repo]](https://github.com/gitzyong812/VS3_CVPR23)
+- <a id="paper-mt-fist"></a>[IEEE JBHI 2023] **MT-FiST: A Multi-Task Fine-Grained Spatial-Temporal Framework for Surgical Action Triplet Recognition** [[paper]](https://doi.org/10.1109/JBHI.2023.3299321) [[repo]](https://github.com/Lycus99/MT-FiST)
 - <a id="paper-pvsg"></a>[CVPR 2023] **Panoptic Video Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2023/html/Yang_Panoptic_Video_Scene_Graph_Generation_CVPR_2023_paper.html) [[repo]](https://github.com/LilyDaytoy/OpenPVSG)
 - <a id="paper-reltr2023"></a>[IEEE TPAMI 2023] **RelTR: Relation Transformer for Scene Graph Generation** [[paper]](https://arxiv.org/abs/2201.11460) [[repo]](https://github.com/yrcong/RelTR)
+- <a id="paper-rit"></a>[IPCAI / IJCARS 2023] **Rendezvous in Time: An Attention-Based Temporal Fusion Approach for Surgical Triplet Recognition** [[paper]](https://doi.org/10.1007/s11548-023-02914-1) [[repo]](https://github.com/CAMMA-public/rendezvous-in-time)
+- <a id="paper-mcit-ig"></a>[MICCAI 2023] **Surgical Action Triplet Detection by Mixed Supervised Learning of Instrument-Tissue Interactions** [[paper]](https://conferences.miccai.org/2023/papers/629-Paper2331.html) [[repo]](https://github.com/CAMMA-public/mcit-ig)
+- <a id="paper-task-aware-mtl"></a>[IJCARS 2023] **Task-Aware Asynchronous Multi-Task Model with Class Incremental Contrastive Learning for Surgical Scene Understanding** [[paper]](https://doi.org/10.1007/s11548-022-02800-2)
 - <a id="paper-tempura"></a>[CVPR 2023] **Unbiased Scene Graph Generation in Videos** [[paper]](https://arxiv.org/abs/2304.00733) [[repo]](https://github.com/sayaknag/unbiasedSGG)
 
 ### 2022
 
 - <a id="paper-4d-or"></a>[MICCAI 2022] **4D-OR: Semantic Scene Graphs for OR Domain Modeling** [[paper]](https://arxiv.org/abs/2203.11937) [[repo]](https://github.com/egeozsoy/4D-OR)
+- <a id="paper-forest-gcn"></a>[IEEE TCSVT 2022] **Forest Graph Convolutional Network for Surgical Action Triplet Recognition in Endoscopic Videos** [[paper]](https://doi.org/10.1109/TCSVT.2022.3191838)
+- <a id="paper-global-mtl"></a>[IEEE RA-L 2022] **Global-Reasoned Multi-Task Learning Model for Surgical Scene Understanding** [[paper]](https://doi.org/10.1109/LRA.2022.3146544) [[repo]](https://github.com/lalithjets/Global-reasoned-multi-task-model)
 - <a id="paper-g05"></a>[Robotics Science and Systems 2022] **Hydra: A Real-time Spatial Perception System for 3D Scene Graph Construction and Optimization** [[paper]](https://www.roboticsproceedings.org/rss18/p050.html) [[repo]](https://github.com/MIT-SPARK/Hydra)
 - <a id="paper-informative2022"></a>[CVPR 2022] **Not All Relations Are Equal: Mining Informative Labels for Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Goel_Not_All_Relations_Are_Equal_Mining_Informative_Labels_for_Scene_CVPR_2022_paper.html) [[repo]](https://github.com/VICO-UoE/NARE)
 - <a id="paper-psg2022"></a>[ECCV 2022] **Panoptic Scene Graph Generation** [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/222_ECCV_2022_paper.php) [[repo]](https://github.com/Jingkang50/OpenPSG)
+- <a id="paper-rendezvous"></a>[Medical Image Analysis 2022] **Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos** [[paper]](https://doi.org/10.1016/j.media.2022.102433) [[repo]](https://github.com/CAMMA-public/rendezvous)
+- <a id="paper-gradient-features"></a>[IEEE RA-L 2022] **Rethinking Feature Extraction: Gradient-Based Localized Feature Extraction for End-To-End Surgical Downstream Tasks** [[paper]](https://doi.org/10.1109/LRA.2022.3221310)
 - <a id="paper-sgt"></a>[MICCAI 2022] **SGT: Scene Graph-Guided Transformer for Surgical Report Generation** [[paper]](https://conferences.miccai.org/2022/papers/463-Paper2204.html) [[repo]](https://github.com/ccccchenllll/SGT_master)
 - <a id="paper-sgtr2022"></a>[CVPR 2022] **SGTR: End-to-End Scene Graph Generation With Transformer** [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Li_SGTR_End-to-End_Scene_Graph_Generation_With_Transformer_CVPR_2022_paper.html) [[repo]](https://github.com/Scarecrow0/SGTR)
+- <a id="paper-sirnet"></a>[IEEE RA-L 2022] **SIRNet: Fine-Grained Surgical Interaction Recognition** [[paper]](https://doi.org/10.1109/LRA.2022.3148454) [[repo]](https://github.com/cynerelee/SIRNet)
 - <a id="paper-ssrcnn2022"></a>[CVPR 2022] **Structured Sparse R-CNN for Direct Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Teng_Structured_Sparse_R-CNN_for_Direct_Scene_Graph_Generation_CVPR_2022_paper.html) [[repo]](https://github.com/MCG-NJU/Structured-Sparse-RCNN)
 - <a id="paper-nice2022"></a>[CVPR 2022] **The Devil Is in the Labels: Noisy Label Correction for Robust Scene Graph Generation** [[paper]](https://openaccess.thecvf.com/content/CVPR2022/html/Li_The_Devil_Is_in_the_Labels_Noisy_Label_Correction_for_CVPR_2022_paper.html) [[repo]](https://github.com/muktilin/NICE)
 - <a id="paper-ovprompt2022"></a>[ECCV 2022] **Towards Open-Vocabulary Scene Graph Generation with Prompt-Based Finetuning** [[paper]](https://www.ecva.net/papers/eccv_2022/papers_ECCV/html/6652_ECCV_2022_paper.php)
@@ -140,6 +171,7 @@ A scene graph may contain symbolic labels, visual features, geometry or several 
 - <a id="paper-g02"></a>[CVPR 2020] **Learning 3D Semantic Scene Graphs from 3D Indoor Reconstructions** [[paper]](https://openaccess.thecvf.com/content_CVPR_2020/html/Wald_Learning_3D_Semantic_Scene_Graphs_From_3D_Indoor_Reconstructions_CVPR_2020_paper.html) [[data repo]](https://github.com/3DSSG/3DSSG.github.io)
 - <a id="paper-surg2020-graph"></a>[MICCAI 2020] **Learning and Reasoning with the Graph Structure Representation in Robotic Surgery** [[paper]](https://arxiv.org/abs/2007.03357) [[repo]](https://github.com/mobarakol/Surgical_SceneGraph_Generation)
 - <a id="paper-pcpl2020"></a>[ACM Multimedia 2020] **PCPL: Predicate-Correlation Perception Learning for Unbiased Scene Graph Generation** [[paper]](https://doi.org/10.1145/3394171.3413722)
+- <a id="paper-tripnet"></a>[MICCAI 2020] **Recognition of Instrument-Tissue Interactions in Endoscopic Videos via Action Triplets** [[paper]](https://doi.org/10.1007/978-3-030-59716-0_35)
 - <a id="paper-tde2020"></a>[CVPR 2020] **Unbiased Scene Graph Generation from Biased Training** [[paper]](https://arxiv.org/abs/2002.11949) [[repo]](https://github.com/KaihuaTang/Scene-Graph-Benchmark.pytorch)
 
 ### 2019
@@ -255,32 +287,59 @@ Each paper has one primary topic below. Dataset, reasoning and generation papers
 
 ### Surgical Scene Graphs
 
+See the [surgical topic guide](topics/scene-graphs-in-surgery.md) for subtopics, summaries and source-release notes. Related task papers below include action-triplet methods and benchmarks; they do not all construct complete scene graphs.
+
 - [ProtoFlow: Interpretable and Robust Surgical Workflow Modeling with Learned Dynamic Scene Graph Prototypes](#paper-protoflow) (2026).
 - [Sterilizable Scene Graph Generation for Operating Rooms](#paper-sg-nca) (2026).
+- [SWoMo: Neuro-Symbolic World Model for Cataract Surgery Simulation](#paper-swomo) (2026).
 - [CAT-SG: A Large Dynamic Scene Graph Dataset for Fine-Grained Understanding of Cataract Surgery](#paper-cat-sg) (2025).
+- [HieraSurg: Hierarchy-Aware Diffusion Model for Surgical Video Generation](#paper-hierasurg) (2025).
+- [Instrument-Tissue-Guided Surgical Action Triplet Detection via Textual-Temporal Trail Exploration](#paper-itg-trip) (2025).
+- [Knowledge-Driven Framework for Anatomical Landmark Annotation in Laparoscopic Surgery](#paper-landmark-graph) (2025).
+- [Multimodal Graph Representation Learning for Robust Surgical Workflow Recognition with Adversarial Feature Disentanglement](#paper-grad-workflow) (2025).
 - [SG2VID: Scene Graphs Enable Fine-Grained Control for Video Synthesis](#paper-sg2vid) (2025).
 - [SurGrID: Controllable Surgical Simulation via Scene Graph to Image Diffusion](#paper-surgrid) (2025).
 - [Towards Holistic Surgical Scene Graph](#paper-holistic-surgical) (2025).
 - [Advancing Surgical VQA with Scene Graph Knowledge](#paper-ssg-vqa) (2024).
+- [Concept Graph Neural Networks for Surgical Video Understanding](#paper-concept-graph) (2024).
+- [Instrument-Tissue Interaction Detection Framework for Surgical Video Understanding](#paper-itidnet) (2024).
 - [Latent Graph Representations for Critical View of Safety Assessment](#paper-lg-cvs) (2024).
-- [Optimizing Latent Graph Representations of Surgical Scenes for Zero-Shot Domain Transfer](#paper-surg-dg) (2024).
+- [MT4MTL-KD: A Multi-Teacher Knowledge Distillation Framework for Triplet Recognition](#paper-mt4mtl-kd) (2024).
+- [Optimizing Latent Graph Representations of Surgical Scenes for Unseen Domain Generalization](#paper-surg-dg) (2024).
 - [SANGRIA: Surgical Video Scene Graph Optimization for Surgical Workflow Prediction](#paper-sangria) (2024).
 - [SGT++: Improved Scene Graph-Guided Transformer for Surgical Report Generation](#paper-sgt-plus-plus) (2024).
+- [Towards Multimodal Graph Neural Networks for Surgical Instrument Anticipation](#paper-instrument-anticipation) (2024).
+- [Video-Instrument Synergistic Network for Referring Video Instrument Segmentation in Robotic Surgery](#paper-vis-net) (2024).
+- [VISAGE: Video Synthesis Using Action Graphs for Surgery](#paper-visage) (2024).
+- [CholecTriplet2021: A Benchmark Challenge for Surgical Action Triplet Recognition](#paper-cholectriplet2021) (2023).
+- [CholecTriplet2022: Show Me a Tool and Tell Me the Triplet - An Endoscopic Vision Challenge for Surgical Action Triplet Detection](#paper-cholectriplet2022) (2023).
+- [Dynamic Interactive Relation Capturing via Scene Graph Learning for Robotic Surgical Report Generation](#paper-dynamic-report) (2023).
 - [Dynamic Scene Graph Representation for Surgical Video](#paper-dynamic-surgical) (2023).
 - [Encoding Surgical Videos as Latent Spatiotemporal Graphs for Object and Anatomy-Driven Reasoning](#paper-surg-stlg) (2023).
+- [MT-FiST: A Multi-Task Fine-Grained Spatial-Temporal Framework for Surgical Action Triplet Recognition](#paper-mt-fist) (2023).
+- [Rendezvous in Time: An Attention-Based Temporal Fusion Approach for Surgical Triplet Recognition](#paper-rit) (2023).
+- [Surgical Action Triplet Detection by Mixed Supervised Learning of Instrument-Tissue Interactions](#paper-mcit-ig) (2023).
+- [Task-Aware Asynchronous Multi-Task Model with Class Incremental Contrastive Learning for Surgical Scene Understanding](#paper-task-aware-mtl) (2023).
+- [Forest Graph Convolutional Network for Surgical Action Triplet Recognition in Endoscopic Videos](#paper-forest-gcn) (2022).
+- [Global-Reasoned Multi-Task Learning Model for Surgical Scene Understanding](#paper-global-mtl) (2022).
+- [Rendezvous: Attention Mechanisms for the Recognition of Surgical Action Triplets in Endoscopic Videos](#paper-rendezvous) (2022).
+- [Rethinking Feature Extraction: Gradient-Based Localized Feature Extraction for End-To-End Surgical Downstream Tasks](#paper-gradient-features) (2022).
 - [SGT: Scene Graph-Guided Transformer for Surgical Report Generation](#paper-sgt) (2022).
+- [SIRNet: Fine-Grained Surgical Interaction Recognition](#paper-sirnet) (2022).
 - [Learning and Reasoning with the Graph Structure Representation in Robotic Surgery](#paper-surg2020-graph) (2020).
+- [Recognition of Instrument-Tissue Interactions in Endoscopic Videos via Action Triplets](#paper-tripnet) (2020).
 
 ### Operating-Room Scene Graphs
 
 - [OR-Action: Multi-Role Video Understanding with Fine-Grained Actions](#paper-or-action) (2026).
 - [SAGE-OR: Semi-supervised Adaptive Scene Graph Generation for Operating Rooms](#paper-sage-or) (2026).
+- [Specialized Foundation Models for Intelligent Operating Rooms](#paper-orqa) (2026).
 - [TopoOR: A Unified Topological Scene Representation for the Operating Room](#paper-topoor) (2026).
 - [EgoExOR: An Ego-Exo-Centric Operating Room Dataset for Surgical Activity Understanding](#paper-egoexor) (2025).
 - [MM-OR: A Large Multimodal Operating Room Dataset for Semantic Understanding of High-Intensity Surgical Environments](#paper-mm-or) (2025).
+- [S²Former-OR: Single-Stage Bi-Modal Transformer for Scene Graph Generation in OR](#paper-s2former-or) (2025; early access 2024).
 - [Holistic OR domain modeling: a semantic scene graph approach](#paper-holistic-or) (2024).
 - [ORacle: Large Vision-Language Models for Knowledge-Guided Holistic OR Domain Modeling](#paper-oracle) (2024).
-- [S²Former-OR: Single-Stage Bi-Modal Transformer for Scene Graph Generation in OR](#paper-s2former-or) (2024).
 - [Tri-modal Confluence with Temporal Dynamics for Scene Graph Generation in Operating Rooms](#paper-tritemp-or) (2024).
 - [LABRAD-OR: Lightweight Memory Scene Graphs for Accurate Bimodal Reasoning in Dynamic Operating Rooms](#paper-labrad-or) (2023).
 - [4D-OR: Semantic Scene Graphs for OR Domain Modeling](#paper-4d-or) (2022).
@@ -290,6 +349,8 @@ Each paper has one primary topic below. Dataset, reasoning and generation papers
 - [Decoding the Surgical Scene: A Scoping Review of Scene Graphs in Surgery](#paper-surg-scoping) (2026).
 
 ## Datasets and benchmarks
+
+Surgical graph datasets, annotation limits and cross-dataset overlap are detailed in the [surgical dataset notes](topics/scene-graphs-in-surgery.md#datasets-and-evaluation).
 
 Follow each source for access requirements, annotation scope and dataset terms. A paper or repository link does not imply that every raw video, image or annotation is available without conditions.
 
@@ -313,7 +374,7 @@ Follow each source for access requirements, annotation scope and dataset terms. 
 
 ## Tools and implementations
 
-Selected author repositories, checked for availability on 2026-10-14. Dependencies, checkpoints and licenses vary across releases.
+Selected author repositories. Surgical release checks were updated on 2026-11-03 in the [topic guide](topics/scene-graphs-in-surgery.md#release-checks); other availability checks date to 2026-10-14. Dependencies, checkpoints and licenses vary across releases.
 
 - [OpenPSG](https://github.com/Jingkang50/OpenPSG) — Panoptic scene graph generation baselines and evaluation.
 - [OpenPVSG](https://github.com/LilyDaytoy/OpenPVSG) — Panoptic video scene graph annotations and baselines.
